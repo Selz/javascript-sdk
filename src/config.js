@@ -1,6 +1,6 @@
 import is from './utils/is';
 
-const getBase = env => `https://${is.empty(env) || env === 'selz.com' ? 'sdk.selz.com' : `${env}/sdk`}/`;
+const getBase = env => `https://${is.empty(env) || env === 'selz.com' ? 'selz.com/sdk' : `${env}/sdk`}/`;
 
 const config = {
     urls: {
